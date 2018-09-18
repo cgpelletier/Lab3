@@ -10,7 +10,7 @@ public class WebScraper {
         System.out.println(words.length);
 
         String[] wordsOccurrences = urlToString("http://erdani.com/tdpl/hamlet.txt").split("prince");
-        System.out.println(wordsOccurrences);
+        System.out.println(wordsOccurrences.length);
     }
 
     /**
